@@ -1,0 +1,36 @@
+{
+  "slug": "editing",
+  "order": 4,
+  "icon": "✂️",
+  "name_id": "Editing Video & Foto",
+  "name_en": "Video & Photo Editing",
+  "packages": [
+    {
+      "name": "Photo Edit",
+      "price": "Rp 25.000",
+      "unit_id": "/ foto",
+      "unit_en": "/ photo",
+      "popular": false,
+      "features_id": "Retouching Profesional\nColor Grading\nBackground Edit\nFile HD",
+      "features_en": "Professional Retouching\nColor Grading\nBackground Edit\nHD File"
+    },
+    {
+      "name": "Video Edit",
+      "price": "Rp 150.000",
+      "unit_id": "/ menit",
+      "unit_en": "/ minute",
+      "popular": true,
+      "features_id": "Cutting & Assembly\nColor Grading\nSubtitle & Teks\nSound Design\nRevisi 2x",
+      "features_en": "Cutting & Assembly\nColor Grading\nSubtitles & Text\nSound Design\n2x Revision"
+    },
+    {
+      "name": "Reels / Short",
+      "price": "Rp 200.000",
+      "unit_id": "/ video",
+      "unit_en": "/ video",
+      "popular": false,
+      "features_id": "Format Vertikal 9:16\nTrending Transition\nCaption & Stiker\nBGM Trending\nRevisi 1x",
+      "features_en": "Vertical 9:16 Format\nTrending Transitions\nCaptions & Stickers\nTrending BGM\n1x Revision"
+    }
+  ]
+}

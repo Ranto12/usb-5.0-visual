@@ -1,0 +1,11 @@
+{
+  "slug": "wedding-cinematic",
+  "title": "Wedding Cinematic",
+  "subtitle": "Cinematic Videography",
+  "category": "video",
+  "image_url": null,
+  "image_width": 800,
+  "image_height": 500,
+  "order": 2,
+  "featured": true
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "landing-page-design",
+  "title": "Landing Page Design",
+  "subtitle": "Web Development",
+  "category": "web",
+  "image_url": null,
+  "image_width": 800,
+  "image_height": 500,
+  "order": 4,
+  "featured": false
+}

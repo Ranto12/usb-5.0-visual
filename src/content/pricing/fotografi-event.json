@@ -1,0 +1,36 @@
+{
+  "slug": "fotografi-event",
+  "order": 2,
+  "icon": "📸",
+  "name_id": "Fotografi Event",
+  "name_en": "Event Photography",
+  "packages": [
+    {
+      "name": "Half Day",
+      "price": "Rp 800.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "4 Jam Dokumentasi\nSemua Foto Edited\nFile Digital HD\nPengiriman 3 Hari",
+      "features_en": "4 Hours Documentation\nAll Photos Edited\nHD Digital Files\n3-Day Delivery"
+    },
+    {
+      "name": "Full Day",
+      "price": "Rp 1.500.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": true,
+      "features_id": "8 Jam Dokumentasi\nSemua Foto Edited\nFile Digital HD\nPengiriman 3 Hari\n1 Fotografer",
+      "features_en": "8 Hours Documentation\nAll Photos Edited\nHD Digital Files\n3-Day Delivery\n1 Photographer"
+    },
+    {
+      "name": "Custom",
+      "price": "Hubungi Kami",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "Durasi Fleksibel\nMulti Fotografer\nEditing Premium\nPaket Cetak\nKonsultasi Gratis",
+      "features_en": "Flexible Duration\nMulti Photographer\nPremium Editing\nPrint Package\nFree Consultation"
+    }
+  ]
+}

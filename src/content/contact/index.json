@@ -1,0 +1,17 @@
+{
+  "socials": {
+    "whatsapp": "6285840385667",
+    "instagram": "@usb.visuals",
+    "instagram_url": "https://instagram.com",
+    "youtube_url": "https://youtube.com",
+    "tiktok_url": "https://tiktok.com"
+  },
+  "location": {
+    "id": "Indonesia",
+    "en": "Indonesia"
+  },
+  "available": {
+    "id": "Senin - Sabtu, 08.00 - 20.00 WIB",
+    "en": "Monday - Saturday, 08.00 - 20.00 WIB"
+  }
+}

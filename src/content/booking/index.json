@@ -1,0 +1,13 @@
+{
+  "start_hour": 8,
+  "end_hour": 20,
+  "slot_duration": 1,
+  "max_days_ahead": 30,
+  "closed_days": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ]
+}

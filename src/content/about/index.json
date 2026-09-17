@@ -1,0 +1,41 @@
+{
+  "title": {
+    "id": "Tentang Kami",
+    "en": "About Us"
+  },
+  "subtitle": {
+    "id": "Visual yang berbicara lebih dari seribu kata",
+    "en": "Visuals that speak louder than a thousand words"
+  },
+  "description1": {
+    "id": "USB-5.0 VISUALS adalah studio kreatif yang berfokus pada fotografi, videografi, dan pembuatan konten visual berkualitas tinggi. Kami hadir untuk membantu individu, brand, dan perusahaan dalam menyampaikan pesan mereka melalui karya visual yang kuat dan berkesan.",
+    "en": "USB-5.0 VISUALS is a creative studio focused on high-quality photography, videography, and visual content creation. We are here to help individuals, brands, and companies convey their messages through powerful and memorable visual work."
+  },
+  "description2": {
+    "id": "Dengan pendekatan sinematik dan perhatian mendalam terhadap detail, setiap project kami kerjakan dengan penuh dedikasi. Dari momen wisuda yang tak terlupakan hingga kampanye brand yang impactful, kami siap mewujudkan visi Anda.",
+    "en": "With a cinematic approach and deep attention to detail, we handle every project with full dedication. From unforgettable graduation moments to impactful brand campaigns, we are ready to bring your vision to life."
+  },
+  "image_url": null,
+  "stats": [
+    {
+      "value": "200+",
+      "label_id": "Klien Puas",
+      "label_en": "Happy Clients"
+    },
+    {
+      "value": "500+",
+      "label_id": "Project Selesai",
+      "label_en": "Projects Done"
+    },
+    {
+      "value": "3+",
+      "label_id": "Tahun Pengalaman",
+      "label_en": "Years Experience"
+    },
+    {
+      "value": "5",
+      "label_id": "Layanan Unggulan",
+      "label_en": "Core Services"
+    }
+  ]
+}

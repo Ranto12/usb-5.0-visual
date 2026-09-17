@@ -1,0 +1,36 @@
+{
+  "slug": "videografi-sinematik",
+  "order": 3,
+  "icon": "🎬",
+  "name_id": "Videografi Sinematik",
+  "name_en": "Cinematic Videography",
+  "packages": [
+    {
+      "name": "Short Film",
+      "price": "Rp 1.500.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "Durasi 1-3 Menit\nColor Grading\nBackground Music\nRevisi 1x",
+      "features_en": "1-3 Minute Duration\nColor Grading\nBackground Music\n1x Revision"
+    },
+    {
+      "name": "Medium Film",
+      "price": "Rp 2.500.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": true,
+      "features_id": "Durasi 3-7 Menit\nColor Grading Sinematik\nOriginal Score\nRevisi 2x\nDrone Shot (opsional)",
+      "features_en": "3-7 Minute Duration\nCinematic Color Grade\nOriginal Score\n2x Revision\nDrone Shot (optional)"
+    },
+    {
+      "name": "Full Cinematic",
+      "price": "Rp 4.000.000+",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "Durasi 7+ Menit\nSinematik Full Production\nMulti-Kamera\nRevisi 3x\nDrone Shot\nMaster File 4K",
+      "features_en": "7+ Minute Duration\nFull Cinematic Production\nMulti-Camera\n3x Revision\nDrone Shot\n4K Master File"
+    }
+  ]
+}

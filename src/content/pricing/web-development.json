@@ -1,0 +1,36 @@
+{
+  "slug": "web-development",
+  "order": 5,
+  "icon": "💻",
+  "name_id": "Web Development",
+  "name_en": "Web Development",
+  "packages": [
+    {
+      "name": "Landing Page",
+      "price": "Rp 1.500.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "1 Halaman Responsif\nDesain Modern\nSEO Basic\nDeploy Gratis",
+      "features_en": "1 Responsive Page\nModern Design\nBasic SEO\nFree Deployment"
+    },
+    {
+      "name": "Company Profile",
+      "price": "Rp 3.000.000",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": true,
+      "features_id": "5-10 Halaman\nCMS Admin Panel\nSEO Optimized\nDomain + Hosting 1 Tahun\nMobile Responsive",
+      "features_en": "5-10 Pages\nCMS Admin Panel\nSEO Optimized\nDomain + Hosting 1 Year\nMobile Responsive"
+    },
+    {
+      "name": "Full Stack App",
+      "price": "Rp 7.000.000+",
+      "unit_id": "",
+      "unit_en": "",
+      "popular": false,
+      "features_id": "Custom Features\nDatabase Terintegrasi\nAuth & Dashboard\nAPI Integration\nSupport 3 Bulan",
+      "features_en": "Custom Features\nDatabase Integration\nAuth & Dashboard\nAPI Integration\n3-Month Support"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "fotografi-wisuda",
+  "order": 1,
+  "icon": "🎓",
+  "name_id": "Fotografi Wisuda",
+  "name_en": "Graduation Photography",
+  "packages": [
+    {
+      "name": "Basic",
+      "price": "Rp 350.000",
+      "unit_id": "/ sesi",
+      "unit_en": "/ session",
+      "popular": false,
+      "features_id": "1 Jam Sesi Foto\n30 Foto Edited\nFile Digital HD\nRevisi 1x",
+      "features_en": "1 Hour Photo Session\n30 Edited Photos\nHD Digital Files\n1x Revision"
+    },
+    {
+      "name": "Standard",
+      "price": "Rp 600.000",
+      "unit_id": "/ sesi",
+      "unit_en": "/ session",
+      "popular": true,
+      "features_id": "2 Jam Sesi Foto\n60 Foto Edited\nFile Digital HD\nRevisi 2x\nSoft Copy Album",
+      "features_en": "2 Hour Photo Session\n60 Edited Photos\nHD Digital Files\n2x Revision\nDigital Album"
+    },
+    {
+      "name": "Premium",
+      "price": "Rp 1.000.000",
+      "unit_id": "/ sesi",
+      "unit_en": "/ session",
+      "popular": false,
+      "features_id": "3 Jam Sesi Foto\n100 Foto Edited\nFile Digital HD\nRevisi 3x\nCetak Album Fisik\nFree 1 Foto Kanvas",
+      "features_en": "3 Hour Photo Session\n100 Edited Photos\nHD Digital Files\n3x Revision\nPhysical Album Print\nFree 1 Canvas Photo"
+    }
+  ]
+}

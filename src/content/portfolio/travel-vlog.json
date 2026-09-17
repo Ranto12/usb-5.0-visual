@@ -1,0 +1,11 @@
+{
+  "slug": "travel-vlog",
+  "title": "Travel Vlog Edit",
+  "subtitle": "Video Editing",
+  "category": "video",
+  "image_url": null,
+  "image_width": 600,
+  "image_height": 800,
+  "order": 8,
+  "featured": false
+}

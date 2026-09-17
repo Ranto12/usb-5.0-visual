@@ -1,0 +1,11 @@
+{
+  "slug": "brand-reels",
+  "title": "Brand Reels",
+  "subtitle": "Content Creation",
+  "category": "video",
+  "image_url": "/images/portfolio/brand-reels/image_url.jpeg",
+  "image_width": 600,
+  "image_height": 900,
+  "order": 6,
+  "featured": false
+}

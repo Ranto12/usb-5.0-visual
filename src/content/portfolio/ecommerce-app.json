@@ -1,0 +1,11 @@
+{
+  "slug": "ecommerce-app",
+  "title": "E-Commerce App",
+  "subtitle": "Full Stack Development",
+  "category": "web",
+  "image_url": null,
+  "image_width": 800,
+  "image_height": 500,
+  "order": 7,
+  "featured": false
+}

@@ -1,0 +1,24 @@
+{
+  "tagline": {
+    "id": "Abadikan Momen,\nCiptakan Karya",
+    "en": "Capture Moments,\nCreate Masterpieces"
+  },
+  "subtitle": {
+    "id": "Kami menghadirkan layanan fotografi, videografi, dan pembuatan konten profesional dengan sentuhan sinematik yang memukau.",
+    "en": "We deliver professional photography, videography, and content creation services with a stunning cinematic touch."
+  },
+  "stats": [
+    {
+      "val": "200+",
+      "label": "Happy Clients"
+    },
+    {
+      "val": "500+",
+      "label": "Projects"
+    },
+    {
+      "val": "3+",
+      "label": "Years"
+    }
+  ]
+}

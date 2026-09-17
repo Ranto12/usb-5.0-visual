@@ -1,0 +1,11 @@
+{
+  "slug": "corporate-event",
+  "title": "Corporate Event",
+  "subtitle": "Event Photography",
+  "category": "photo",
+  "image_url": null,
+  "image_width": 600,
+  "image_height": 700,
+  "order": 3,
+  "featured": false
+}
