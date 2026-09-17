@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   description:
     'USB-5.0 VISUALS adalah studio kreatif profesional yang menyediakan layanan fotografi, videografi sinematik, dan pembuatan konten berkualitas tinggi.',
   keywords: ['photography', 'videography', 'content creation', 'fotografi wisuda', 'video cinematic', 'web development'],
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png' }],
+    shortcut: '/favicon.ico',
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: 'USB-5.0 VISUALS',
     description: 'Photography · Videography · Content Creation',
