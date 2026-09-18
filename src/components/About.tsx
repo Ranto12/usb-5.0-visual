@@ -48,7 +48,7 @@ export default function About({ aboutData }: { aboutData: AboutData | null }) {
   ];
 
   return (
-    <section id="about" className="section-padding bg-brand-dark/30">
+    <section id="about" className="section-padding bg-brand-bone">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
@@ -56,7 +56,7 @@ export default function About({ aboutData }: { aboutData: AboutData | null }) {
             ref={ref as React.RefObject<HTMLDivElement>}
             className={`relative transition-all duration-700 ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}
           >
-            <div className="relative rounded-2xl overflow-hidden aspect-[4/5]">
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/5] shadow-lg border border-slate-200">
               <Image
                 src={aboutData?.image_file || aboutData?.image_url || 'https://picsum.photos/seed/about-usb/800/1000'}
                 alt="USB-5.0 VISUALS Team"
@@ -64,56 +64,56 @@ export default function About({ aboutData }: { aboutData: AboutData | null }) {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent" />
             </div>
 
             {/* Floating card */}
-            <div className="absolute -bottom-6 -right-6 bg-brand-dark border border-brand-red/30 rounded-2xl p-4 shadow-xl">
+            <div className="absolute -bottom-6 -right-6 bg-white border border-brand-accent/30 rounded-2xl p-4 shadow-xl">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-brand-red/20 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-brand-red" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-full bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.745 3.745 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.745 3.745 0 013.296-1.043A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.745 3.745 0 013.296 1.043 3.745 3.745 0 011.043 3.296A3.745 3.745 0 0121 12z" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-bold text-sm">Certified Studio</p>
-                  <p className="text-gray-400 text-xs">Professional Equipment</p>
+                  <p className="text-slate-900 font-semibold text-sm">Certified Studio</p>
+                  <p className="text-slate-500 text-[0.6875rem]">Professional Equipment</p>
                 </div>
               </div>
             </div>
 
             {/* Red accent */}
-            <div className="absolute -top-4 -left-4 w-24 h-24 rounded-2xl bg-brand-red/10 border border-brand-red/20 -z-10" />
+            <div className="absolute -top-4 -left-4 w-24 h-24 rounded-2xl bg-brand-accent/10 border border-brand-accent/20 -z-10" />
           </div>
 
           {/* Content Side */}
           <div
             className={`transition-all duration-700 delay-200 ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}
           >
-            <span className="inline-block text-brand-red text-sm font-semibold tracking-widest uppercase mb-3">
+            <span className="inline-block text-brand-accent text-sm font-semibold tracking-widest uppercase mb-3">
               — About USB-5.0 VISUALS —
             </span>
-            <h2 className="text-4xl sm:text-5xl font-black text-white mb-4 leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-4 leading-tight">
               {aboutData ? (language === 'id' ? aboutData.title.id : aboutData.title.en) : t.about.title}
             </h2>
-            <p className="text-brand-red font-medium mb-6 text-lg">
+            <p className="text-brand-accent font-medium mb-6 text-lg">
               {aboutData ? (language === 'id' ? aboutData.subtitle.id : aboutData.subtitle.en) : t.about.subtitle}
             </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
+            <p className="text-slate-600 leading-relaxed mb-4">
               {aboutData ? (language === 'id' ? aboutData.description1.id : aboutData.description1.en) : t.about.description1}
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
+            <p className="text-slate-600 leading-relaxed mb-8">
               {aboutData ? (language === 'id' ? aboutData.description2.id : aboutData.description2.en) : t.about.description2}
             </p>
 
             {/* Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {(aboutData?.stats || t.about.stats).map((stat, idx) => (
-                <div key={idx} className="bg-brand-dark rounded-xl p-4 text-center border border-white/5">
-                  <span className="block text-2xl font-black text-brand-red">
+                <div key={idx} className="bg-white rounded-xl p-4 text-center border border-slate-200 shadow-sm">
+                  <span className="block text-2xl font-extrabold text-brand-accent font-mono">
                     {(stat as AboutStat).value ?? (stat as { value: string }).value}
                   </span>
-                  <span className="text-gray-400 text-xs mt-1 block">
+                  <span className="text-slate-500 text-[0.6875rem] mt-1 block">
                     {(stat as AboutStat).label_id
                       ? (language === 'id' ? (stat as AboutStat).label_id : (stat as AboutStat).label_en)
                       : (stat as { label: string }).label}
@@ -126,12 +126,12 @@ export default function About({ aboutData }: { aboutData: AboutData | null }) {
             <div className="space-y-4">
               {t.about.values.map((val, idx) => (
                 <div key={idx} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-brand-red/10 border border-brand-red/20 flex items-center justify-center text-brand-red flex-shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center text-brand-accent flex-shrink-0">
                     {valueIcons[idx]}
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-1">{val.title}</h4>
-                    <p className="text-gray-400 text-sm">{val.description}</p>
+                    <h4 className="text-slate-900 font-semibold mb-1">{val.title}</h4>
+                    <p className="text-slate-600 text-caption">{val.description}</p>
                   </div>
                 </div>
               ))}

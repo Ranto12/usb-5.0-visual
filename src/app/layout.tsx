@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { GeistMono } from 'geist/font/mono';
+import '@fontsource-variable/inter';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 
@@ -31,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className={`scroll-smooth ${GeistMono.variable}`}>
-      <body className="bg-brand-black text-white antialiased font-mono">
+      <body className="bg-brand-bone text-brand-black antialiased font-sans">
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>

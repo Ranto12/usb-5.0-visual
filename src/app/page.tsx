@@ -32,7 +32,7 @@ export default async function Home() {
     ]);
 
   return (
-    <main className="min-h-screen bg-brand-black">
+    <main className="min-h-screen bg-brand-bone">
       <Navbar contactData={contactData} />
       <Hero heroData={heroData} />
       <Services services={services} />

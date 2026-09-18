@@ -87,26 +87,26 @@ export default function Services({ services: cmsServices }: { services: ServiceI
       }));
 
   return (
-    <section id="services" className="section-padding bg-brand-black">
+    <section id="services" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div ref={ref} className="text-center mb-16">
           <span
-            className={`inline-block text-brand-red text-sm font-semibold tracking-widest uppercase mb-3 transition-all duration-700 ${
+            className={`inline-block text-brand-accent text-overline font-semibold tracking-widest uppercase mb-3 transition-all duration-700 ${
               inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
             — What We Offer —
           </span>
           <h2
-            className={`text-4xl sm:text-5xl font-black text-white mb-4 transition-all duration-700 delay-100 ${
+            className={`text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-4 transition-all duration-700 delay-100 ${
               inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
             {t.services.title}
           </h2>
           <p
-            className={`text-gray-400 text-base sm:text-lg max-w-xl mx-auto transition-all duration-700 delay-200 ${
+            className={`text-slate-600 text-body sm:text-lg max-w-xl mx-auto transition-all duration-700 delay-200 ${
               inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
@@ -176,30 +176,30 @@ function ServiceCard({
   return (
     <div
       onClick={handleClick}
-      className={`group relative bg-brand-dark border border-white/5 rounded-2xl p-6 card-hover cursor-pointer transition-all duration-700 ${
+      className={`group relative bg-brand-bone/60 hover:bg-white border border-slate-200 rounded-2xl p-6 card-hover shadow-sm hover:shadow-md hover:border-brand-accent/30 cursor-pointer transition-all duration-500 ${
         isLast ? 'sm:col-span-2 lg:col-span-1' : ''
       } ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
       style={{ transitionDelay: `${delay + 300}ms` }}
     >
       {/* Top border accent */}
-      <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-brand-red/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-brand-accent/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
       {/* Icon */}
-      <div className="w-14 h-14 rounded-xl bg-brand-red/10 border border-brand-red/20 flex items-center justify-center text-brand-red mb-5 group-hover:bg-brand-red group-hover:text-white group-hover:scale-110 transition-all duration-300">
+      <div className="w-14 h-14 rounded-xl bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center text-brand-accent mb-5 group-hover:bg-brand-accent group-hover:text-white group-hover:scale-110 transition-all duration-300">
         {icon}
       </div>
 
       {/* Tag */}
-      <span className="text-xs font-semibold text-brand-red/70 tracking-widest uppercase mb-2 block">{tag}</span>
+      <span className="text-overline font-semibold text-brand-accent/70 tracking-widest uppercase mb-2 block">{tag}</span>
 
       {/* Title */}
-      <h3 className="text-lg font-bold text-white mb-3 group-hover:text-brand-red transition-colors">{title}</h3>
+      <h3 className="text-lg font-semibold text-slate-900 mb-3 group-hover:text-brand-accent transition-colors tracking-tight">{title}</h3>
 
       {/* Description */}
-      <p className="text-gray-400 text-sm leading-relaxed">{description}</p>
+      <p className="text-slate-600 text-caption leading-relaxed">{description}</p>
 
       {/* Arrow */}
-      <div className="mt-5 flex items-center gap-1 text-brand-red opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-0 group-hover:translate-x-1">
+      <div className="mt-5 flex items-center gap-1 text-brand-accent opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-0 group-hover:translate-x-1">
         <span className="text-sm font-semibold">Learn more</span>
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
