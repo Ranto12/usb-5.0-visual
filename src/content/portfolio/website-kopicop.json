@@ -1,0 +1,11 @@
+{
+  "title": "Kopicop Website",
+  "subtitle": "Coffee Shop Website",
+  "category": "web",
+  "image_width": 600,
+  "image_height": 800,
+  "link_url": "https://kopicop.vercel.app/",
+  "link_label": "kopicop.vercel.app",
+  "order": 4,
+  "featured": true
+}

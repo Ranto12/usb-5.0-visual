@@ -1,0 +1,11 @@
+{
+  "title": "Digital Agency Website",
+  "subtitle": "Digital Agency Landing Page",
+  "category": "web",
+  "image_width": 600,
+  "image_height": 800,
+  "link_url": "http://digital-agency-gules-three.vercel.app/",
+  "link_label": "digital-agency.vercel.app",
+  "order": 5,
+  "featured": true
+}

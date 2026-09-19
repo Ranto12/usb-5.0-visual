@@ -1,0 +1,11 @@
+{
+  "title": "Ranto Profile Website",
+  "subtitle": "Personal Profile & Portfolio",
+  "category": "web",
+  "image_width": 600,
+  "image_height": 800,
+  "link_url": "https://ranto-profile.vercel.app/",
+  "link_label": "ranto-profile.vercel.app",
+  "order": 3,
+  "featured": true
+}
